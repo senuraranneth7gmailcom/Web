@@ -4,7 +4,7 @@ if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 
 //=======[dependencies]====================//
-global.SESSION_ID = process.env.SESSION_ID || "";
+global.SESSION_ID = process.env.SESSION_ID || "ANJU-XPRO~zB9SRB5Z#khr8G7SCOTjmYfmcPIer8vPUv94fs3VQlJusVliVOC0";
 global.MONGODB = process.env.MONGODB_URI || "";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
